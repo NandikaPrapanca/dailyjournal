@@ -1,0 +1,122 @@
+/* General settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0072CE; /* UDINUS blue */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #FFCC00; /* UDINUS yellow */
+}
+
+.nav-link {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #FFCC00; /* UDINUS yellow */
+}
+
+.navbar-toggler {
+    border-color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%2888, 88, 88, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Section Content */
+#content {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#content h4 {
+    color: #0072CE; /* UDINUS blue */
+}
+
+/* Footer */
+footer {
+    background-color: #0072CE; /* UDINUS blue */
+    color: #ffffff;
+    font-size: 14px;
+}
+
+footer a {
+    color: #FFCC00; /* UDINUS yellow */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer .bi {
+    margin: 0 10px;
+}
+
+/* Buttons */
+.btn {
+    background-color: #0072CE; /* UDINUS blue */
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    background-color: #ffffff;
+    border: 1px solid #0072CE;
+}
+
+.dropdown-item {
+    color: #0072CE;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #FFCC00; /* UDINUS yellow */
+    color: #ffffff;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #0072CE; /* UDINUS blue */
+}
+
+a:hover {
+    color: #FFCC00; /* UDINUS yellow */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #content {
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}

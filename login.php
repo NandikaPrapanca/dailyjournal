@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="col-md-6">
             <div class="card">
                 <div class="card-header text-center bg-primary text-white">
-                    <h4>LOGIN</h4>
+                    <h4>Welcome To UDINUS Journal</h4>
                 </div>
                 <div class="card-body">
                     <!-- Form Login -->
